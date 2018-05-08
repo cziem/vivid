@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* styling top important section */
+.container-fluid {
+    background-color: #580c0c;
+    color: #f7f7f7;
+    text-align: center;
+    border-bottom: 2px solid #240505;
+}
+
+.container-fluid > p {
+    padding-top: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.dismiss {
+    float: right;
+    position: absolute;
+    top: 1.29rem;
+    right: 1rem;
+    color: #a58a8a;
+    cursor: pointer;
+}
