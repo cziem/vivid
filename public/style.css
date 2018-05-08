@@ -42,3 +42,17 @@
     background: #0c0c0c;
 }
 
+.reg > .btn {
+    background-color: transparent;
+    color: #e9e9e97e;
+    border: 1px solid #af6d0b73;
+    width: 4rem;
+    transition: width .5s ease-in-out;
+}
+
+.reg > .btn:hover {
+    width: 6rem;
+    border: 2px solid #af6d0b;
+    font-weight: bold;
+    color: #fff;
+}
