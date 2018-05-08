@@ -26,7 +26,7 @@
     right: 1rem;
     color: #a58a8a;
     cursor: pointer;
-    transition: all .05s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 1s ease-in-out;
 }
 
 .dismiss:hover {
@@ -37,3 +37,8 @@
     background: #bebebe;
     color: #131313;
 }
+
+.navbar {
+    background: #0c0c0c;
+}
+
