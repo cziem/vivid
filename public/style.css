@@ -26,4 +26,14 @@
     right: 1rem;
     color: #a58a8a;
     cursor: pointer;
+    transition: all .05s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.dismiss:hover {
+    font-weight: bold;
+    border: 2px solid #bebebe;
+    border-radius: 1.8rem;
+    width: 2rem;
+    background: #bebebe;
+    color: #131313;
 }
