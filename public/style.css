@@ -1,58 +1,60 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 
 /* styling top important section */
 .container-fluid {
-    background-color: #580c0c;
-    color: #f7f7f7;
-    text-align: center;
-    border-bottom: 2px solid #240505;
+  background-color: #580c0c;
+  color: #f7f7f7;
+  text-align: center;
+  border-bottom: 2px solid #240505;
 }
 
 .container-fluid > p {
-    padding-top: 1rem;
-    line-height: 2rem;
-    font-weight: bold;
+  padding-top: 1rem;
+  line-height: 2rem;
+  font-weight: bold;
 }
 
 .dismiss {
-    float: right;
-    position: absolute;
-    top: 1.29rem;
-    right: 1rem;
-    color: #a58a8a;
-    cursor: pointer;
-    transition: all 1s ease-in-out;
+  float: right;
+  position: absolute;
+  top: 1.29rem;
+  right: 1rem;
+  color: #a58a8a;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
 }
 
 .dismiss:hover {
-    font-weight: bold;
-    border: 2px solid #bebebe;
-    border-radius: 1.8rem;
-    width: 2rem;
-    background: #bebebe;
-    color: #131313;
+  font-weight: bold;
+  border: 2px solid #bebebe;
+  border-radius: 1.8rem;
+  width: 2rem;
+  background: #bebebe;
+  color: #131313;
 }
 
 .navbar {
-    background: #0c0c0c;
+  background: #0c0c0c;
 }
 
 .reg > .btn {
-    background-color: transparent;
-    color: #e9e9e97e;
-    border: 1px solid #af6d0b73;
-    width: 4rem;
-    transition: width .5s ease-in-out;
+  background-color: transparent;
+  color: #e9e9e97e;
+  border: 1px solid #af6d0b73;
+  width: 4rem;
+  transition: width 0.5s ease-in-out;
 }
 
+
+
+/* login and signup hover */
 .reg > .btn:hover {
-    width: 6rem;
-    border: 2px solid #af6d0b;
-    font-weight: bold;
-    color: #fff;
+  width: 6rem;
+  border: 2px solid #af6d0b;
+  font-weight: bold;
+  color: #fff;
 }
