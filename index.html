@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>vivid.com</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/ionicons.min.css">
     <link rel="stylesheet" href="public/style.css">
 </head>
 <body>
@@ -14,9 +15,44 @@
             <p class="importantInfo">
                 vivid is still under construction <code>Developers at work</code>
             </p>
-            <span class="dismiss" id="dismiss">X</span>
+            <span class="dismiss" id="dismiss">&times;</span>
         </div>
     </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Vivid</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="col-auto">
+                <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                </div>
+            </div>
+        </div>
+
+        <div class="reg">
+            <button type="button" class="btn btn-sm"><span>
+                <i class="icon ion-log-in"></i>
+            </span>
+                Login
+            </button>
+            <button type="button" class="btn btn-sm">
+                <span>
+                    <i class="icon ion-log-out"></i>
+                </span>
+                Sign up
+            </button>
+        </div>
+    </nav>
 
     <script src="lib/jquery-3.3.1.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
