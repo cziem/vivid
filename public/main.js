@@ -5,5 +5,8 @@ $(document).ready(function() {
   });
 
   // show the search box
-  
+  // $('.searchIcon').click(function () {
+  //   $('.input').toggleClass('showSearch');
+  // });
+  // not working yet!
 });
